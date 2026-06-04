@@ -10,4 +10,8 @@ add_executable(DSA_Practice main.cpp
         Arrays/ContainsDuplicate.h
         Arrays/ValidAnagram.cpp
         Arrays/ValidAnagram.h
+        Arrays/TwoSum.cpp
+        Arrays/TwoSum.h
+        Arrays/GroupAnagrams.cpp
+        Arrays/GroupAnagrams.h
 )
