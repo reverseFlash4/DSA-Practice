@@ -1,6 +1,10 @@
-#include "TopologicalSort.h"
+#include <iostream>
+
+#include "Arrays/ContainsDuplicate.h"
+#include "Graphs/TopologicalSort.h"
 
 int main() {
-    TopologicalSort::run();
+    //TopologicalSort::run();
+    ContainsDuplicate::run();
     return 0;
 }

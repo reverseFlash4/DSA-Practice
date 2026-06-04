@@ -4,6 +4,8 @@ project(DSA_Practice)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(DSA_Practice main.cpp
-        TopologicalSort.cpp
-        TopologicalSort.h
+        Graphs/TopologicalSort.cpp
+        Graphs/TopologicalSort.h
+        Arrays/ContainsDuplicate.cpp
+        Arrays/ContainsDuplicate.h
 )
