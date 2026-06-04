@@ -8,4 +8,6 @@ add_executable(DSA_Practice main.cpp
         Graphs/TopologicalSort.h
         Arrays/ContainsDuplicate.cpp
         Arrays/ContainsDuplicate.h
+        Arrays/ValidAnagram.cpp
+        Arrays/ValidAnagram.h
 )
