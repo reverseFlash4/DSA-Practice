@@ -14,4 +14,6 @@ add_executable(DSA_Practice main.cpp
         Arrays/TwoSum.h
         Arrays/GroupAnagrams.cpp
         Arrays/GroupAnagrams.h
+        Arrays/TopKFrequentElements.cpp
+        Arrays/TopKFrequentElements.h
 )
