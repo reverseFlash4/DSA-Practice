@@ -1,6 +1,7 @@
 #include <iostream>
 
 #include "Arrays/ContainsDuplicate.h"
+#include "Arrays/EncodeAndDecodeStrings.h"
 #include "Arrays/GroupAnagrams.h"
 #include "Arrays/TopKFrequentElements.h"
 #include "Arrays/TwoSum.h"
@@ -15,6 +16,7 @@ int main() {
     //TwoSum::run();
     //GroupAnagrams::run();
     //TopKFrequentElements::run();
-    MergeIntervals::run();
+    //MergeIntervals::run();
+    EncodeAndDecodeStrings::run();
     return 0;
 }

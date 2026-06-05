@@ -18,4 +18,6 @@ add_executable(DSA_Practice main.cpp
         Arrays/TopKFrequentElements.h
         Intervals/MergeIntervals.cpp
         Intervals/MergeIntervals.h
+        Arrays/EncodeAndDecodeStrings.cpp
+        Arrays/EncodeAndDecodeStrings.h
 )
