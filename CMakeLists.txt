@@ -16,4 +16,6 @@ add_executable(DSA_Practice main.cpp
         Arrays/GroupAnagrams.h
         Arrays/TopKFrequentElements.cpp
         Arrays/TopKFrequentElements.h
+        Intervals/MergeIntervals.cpp
+        Intervals/MergeIntervals.h
 )

@@ -6,6 +6,7 @@
 #include "Arrays/TwoSum.h"
 #include "Graphs/TopologicalSort.h"
 #include "Arrays/ValidAnagram.h"
+#include "Intervals/MergeIntervals.h"
 
 int main() {
     //TopologicalSort::run();
@@ -13,6 +14,7 @@ int main() {
     //ValidAnagram::run();
     //TwoSum::run();
     //GroupAnagrams::run();
-    TopKFrequentElements::run();
+    //TopKFrequentElements::run();
+    MergeIntervals::run();
     return 0;
 }
