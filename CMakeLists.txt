@@ -20,4 +20,8 @@ add_executable(DSA_Practice main.cpp
         Intervals/MergeIntervals.h
         Arrays/EncodeAndDecodeStrings.cpp
         Arrays/EncodeAndDecodeStrings.h
+        Arrays/ProductExceptSelf.cpp
+        Arrays/ProductExceptSelf.h
+        Arrays/LongestConsecutiveSequence.cpp
+        Arrays/LongestConsecutiveSequence.h
 )
