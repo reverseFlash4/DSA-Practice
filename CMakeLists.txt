@@ -32,4 +32,10 @@ add_executable(DSA_Practice main.cpp
         Stack/ValidParentheses.h
         Heap/LastStoneWeight.cpp
         Heap/LastStoneWeight.h
+        TwoPointers/ValidPalindrome.cpp
+        TwoPointers/ValidPalindrome.h
+        TwoPointers/TwoSumTwo.cpp
+        TwoPointers/TwoSumTwo.h
+        TwoPointers/ThreeSum.cpp
+        TwoPointers/ThreeSum.h
 )

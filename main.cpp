@@ -14,6 +14,9 @@
 #include "Heap/LastStoneWeight.h"
 #include "Intervals/MergeIntervals.h"
 #include "Stack/ValidParentheses.h"
+#include "TwoPointers/ThreeSum.h"
+#include "TwoPointers/TwoSumTwo.h"
+#include "TwoPointers/ValidPalindrome.h"
 
 int main() {
     //TopologicalSort::run();
@@ -27,8 +30,11 @@ int main() {
     //ProductExceptSelf::run();
     //LongestConsecutiveSequence::run();
     //BinarySearch::run();
-    ValidSudoku::run();
-    ValidParentheses::run();
-    LastStoneWeight::run();
+    // ValidSudoku::run();
+    // ValidParentheses::run();
+    // LastStoneWeight::run();
+    ValidPalindrome::run();
+    TwoSumTwo::run();
+    ThreeSum::run();
     return 0;
 }
