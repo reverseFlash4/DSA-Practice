@@ -24,4 +24,12 @@ add_executable(DSA_Practice main.cpp
         Arrays/ProductExceptSelf.h
         Arrays/LongestConsecutiveSequence.cpp
         Arrays/LongestConsecutiveSequence.h
+        BinarySearch/BinarySearch.cpp
+        BinarySearch/BinarySearch.h
+        Arrays/ValidSudoku.cpp
+        Arrays/ValidSudoku.h
+        Stack/ValidParentheses.cpp
+        Stack/ValidParentheses.h
+        Heap/LastStoneWeight.cpp
+        Heap/LastStoneWeight.h
 )
