@@ -38,4 +38,8 @@ add_executable(DSA_Practice main.cpp
         TwoPointers/TwoSumTwo.h
         TwoPointers/ThreeSum.cpp
         TwoPointers/ThreeSum.h
+        TwoPointers/ContainerWithMostWater.cpp
+        TwoPointers/ContainerWithMostWater.h
+        TwoPointers/TrappingRainWater.cpp
+        TwoPointers/TrappingRainWater.h
 )

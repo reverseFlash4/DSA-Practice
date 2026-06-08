@@ -14,7 +14,9 @@
 #include "Heap/LastStoneWeight.h"
 #include "Intervals/MergeIntervals.h"
 #include "Stack/ValidParentheses.h"
+#include "TwoPointers/ContainerWithMostWater.h"
 #include "TwoPointers/ThreeSum.h"
+#include "TwoPointers/TrappingRainWater.h"
 #include "TwoPointers/TwoSumTwo.h"
 #include "TwoPointers/ValidPalindrome.h"
 
@@ -33,8 +35,10 @@ int main() {
     // ValidSudoku::run();
     // ValidParentheses::run();
     // LastStoneWeight::run();
-    ValidPalindrome::run();
-    TwoSumTwo::run();
-    ThreeSum::run();
+    // ValidPalindrome::run();
+    // TwoSumTwo::run();
+    // ThreeSum::run();
+    ContainerWithMostWater::run();
+    TrappingRainWater::run();
     return 0;
 }
