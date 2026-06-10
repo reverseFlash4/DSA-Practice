@@ -42,4 +42,16 @@ add_executable(DSA_Practice main.cpp
         TwoPointers/ContainerWithMostWater.h
         TwoPointers/TrappingRainWater.cpp
         TwoPointers/TrappingRainWater.h
+        SlindingWindow/BestTimetoBuyandSellStock.cpp
+        SlindingWindow/BestTimetoBuyandSellStock.h
+        SlindingWindow/LongestSubstringWithoutRepeatingCharacters.cpp
+        SlindingWindow/LongestSubstringWithoutRepeatingCharacters.h
+        SlindingWindow/LongestRepeatingCharacterReplacement.cpp
+        SlindingWindow/LongestRepeatingCharacterReplacement.h
+        Heap/KthLargestElementinaStream.cpp
+        Heap/KthLargestElementinaStream.h
+        SlindingWindow/PermutationinString.cpp
+        SlindingWindow/PermutationinString.h
+        SlindingWindow/MinimumWindowSubstring.cpp
+        SlindingWindow/MinimumWindowSubstring.h
 )

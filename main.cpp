@@ -11,8 +11,14 @@
 #include "Arrays/ValidAnagram.h"
 #include "Arrays/ValidSudoku.h"
 #include "BinarySearch/BinarySearch.h"
+#include "Heap/KthLargestElementinaStream.h"
 #include "Heap/LastStoneWeight.h"
 #include "Intervals/MergeIntervals.h"
+#include "SlindingWindow/BestTimetoBuyandSellStock.h"
+#include "SlindingWindow/LongestRepeatingCharacterReplacement.h"
+#include "SlindingWindow/LongestSubstringWithoutRepeatingCharacters.h"
+#include "SlindingWindow/MinimumWindowSubstring.h"
+#include "SlindingWindow/PermutationinString.h"
 #include "Stack/ValidParentheses.h"
 #include "TwoPointers/ContainerWithMostWater.h"
 #include "TwoPointers/ThreeSum.h"
@@ -38,7 +44,19 @@ int main() {
     // ValidPalindrome::run();
     // TwoSumTwo::run();
     // ThreeSum::run();
-    ContainerWithMostWater::run();
-    TrappingRainWater::run();
+    // ContainerWithMostWater::run();
+    // TrappingRainWater::run();
+    BestTimetoBuyandSellStock::run();
+    LongestSubstringWithoutRepeatingCharacters::run();
+    LongestRepeatingCharacterReplacement::run();
+    std::vector<int> nums = {1, 2, 3,3};
+    KthLargestElementinaStream kth_largest_elementina_stream(3, nums);
+    std::cout<<kth_largest_elementina_stream.add(3)<<std::endl;
+    std::cout<<kth_largest_elementina_stream.add(5)<<std::endl;
+    std::cout<<kth_largest_elementina_stream.add(6)<<std::endl;
+    std::cout<<kth_largest_elementina_stream.add(7)<<std::endl;
+    std::cout<<kth_largest_elementina_stream.add(8)<<std::endl;
+    PermutationinString::run();
+    MinimumWindowSubstring::run();
     return 0;
 }
