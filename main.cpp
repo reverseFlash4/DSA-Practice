@@ -19,6 +19,8 @@
 #include "SlindingWindow/LongestSubstringWithoutRepeatingCharacters.h"
 #include "SlindingWindow/MinimumWindowSubstring.h"
 #include "SlindingWindow/PermutationinString.h"
+#include "Stack/MinStack.h"
+#include "Stack/ReversePolishNotation.h"
 #include "Stack/ValidParentheses.h"
 #include "TwoPointers/ContainerWithMostWater.h"
 #include "TwoPointers/ThreeSum.h"
@@ -46,17 +48,26 @@ int main() {
     // ThreeSum::run();
     // ContainerWithMostWater::run();
     // TrappingRainWater::run();
-    BestTimetoBuyandSellStock::run();
-    LongestSubstringWithoutRepeatingCharacters::run();
-    LongestRepeatingCharacterReplacement::run();
-    std::vector<int> nums = {1, 2, 3,3};
-    KthLargestElementinaStream kth_largest_elementina_stream(3, nums);
-    std::cout<<kth_largest_elementina_stream.add(3)<<std::endl;
-    std::cout<<kth_largest_elementina_stream.add(5)<<std::endl;
-    std::cout<<kth_largest_elementina_stream.add(6)<<std::endl;
-    std::cout<<kth_largest_elementina_stream.add(7)<<std::endl;
-    std::cout<<kth_largest_elementina_stream.add(8)<<std::endl;
-    PermutationinString::run();
-    MinimumWindowSubstring::run();
+    // BestTimetoBuyandSellStock::run();
+    // LongestSubstringWithoutRepeatingCharacters::run();
+    // LongestRepeatingCharacterReplacement::run();
+    // std::vector<int> nums = {1, 2, 3,3};
+    // KthLargestElementinaStream kth_largest_elementina_stream(3, nums);
+    // std::cout<<kth_largest_elementina_stream.add(3)<<std::endl;
+    // std::cout<<kth_largest_elementina_stream.add(5)<<std::endl;
+    // std::cout<<kth_largest_elementina_stream.add(6)<<std::endl;
+    // std::cout<<kth_largest_elementina_stream.add(7)<<std::endl;
+    // std::cout<<kth_largest_elementina_stream.add(8)<<std::endl;
+    // PermutationinString::run();
+    // MinimumWindowSubstring::run();
+    MinStack minStack;
+    minStack.push(1);
+    minStack.push(2);
+    minStack.push(0);
+    std::cout<<minStack.getMin()<<std::endl;
+    minStack.pop();
+    std::cout<<minStack.top()<<std::endl;
+    std::cout<<minStack.getMin()<<std::endl;
+    ReversePolishNotation::run();
     return 0;
 }

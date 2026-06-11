@@ -54,4 +54,8 @@ add_executable(DSA_Practice main.cpp
         SlindingWindow/PermutationinString.h
         SlindingWindow/MinimumWindowSubstring.cpp
         SlindingWindow/MinimumWindowSubstring.h
+        Stack/MinStack.cpp
+        Stack/MinStack.h
+        Stack/ReversePolishNotation.cpp
+        Stack/ReversePolishNotation.h
 )
